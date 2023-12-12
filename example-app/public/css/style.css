@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+.header{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    min-height: 65px;
+    padding: 10px 0px;
+}
+.logo{
+    width: 140px;
+    height: 46px;
+    float: left;
+}
+.navigation{
+    text-align:right;
+    width: 100%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.navigation .main-navigation{
+    margin: 0;
+    height: 50px;
+    list-style: none;    
+    display: inline-block;   
+    float: left;
+}
+
+.navigation .main-navigation li{
+    display: inline;
+    padding: 10px;
+    height: 50px;
+    
+}
+.navigation .main-navigation li a{
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;   
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+.navigation .main-navigation li a:hover{
+    text-decoration: underline;
+    
+}
+.navigation .lang{
+    margin: 0;
+    height: 50px;
+    list-style: none;    
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+.navigation .lang li{
+    display: inline;
+    padding: 10px;
+    height: 50px;
+    
+}
+.navigation .lang li a{
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;   
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+.navigation .lang li a:hover{
+    text-decoration: underline;
+    
+}
+.container{
+    padding: 50px 0;
+}
+.footer{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;   
+    padding: 10px 20px;
+}
