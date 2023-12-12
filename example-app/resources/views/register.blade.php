@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('main-section')
 <h2>Register</h2>
-<form action="{{url('/')}}/register}}" method="post">
+<form action="{{url('/')}}/register" method="post">
     <div class="container">
     <div class="form-group">
         <label for="">Name</label>
